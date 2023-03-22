@@ -1,3 +1,6 @@
 
 data/idwiki-latest-pages-articles.xml.bz2
 data/wiki_corpus.txt
+stats/wiki_corpus/counts_1grams.txt
+stats/wiki_corpus/counts_2grams.txt
+stats/wiki_corpus/counts_3grams.txt
