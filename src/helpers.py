@@ -9,7 +9,7 @@ from urllib.request import urlretrieve
 import zipfile
 
 
-class Helpers():
+class Helpers:
 
     def get_stats_dir(self):
         home = expanduser("~")
