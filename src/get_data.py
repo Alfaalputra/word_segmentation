@@ -1,9 +1,7 @@
 import io
 import time
 import gensim
-import requests
 from datetime import timedelta
-from clint.textui import progress
 
 
 if __name__ == '__main__':
