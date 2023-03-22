@@ -1,1 +1,1 @@
-# word_segmentation
+# Word Segmentation
