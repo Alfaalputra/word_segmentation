@@ -1,9 +1,12 @@
-import re, os
+import re, os, sys
 from collections import Counter
 from difflib import SequenceMatcher
 from functools import lru_cache
 
-from src.helpers import Helpers
+path_this = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(path_this)
+
+from helpers import Helpers
 
 REGEX_TOKEN = re.compile(r'\b[a-zA-Z]{2,}\b')
 helpers = Helpers()

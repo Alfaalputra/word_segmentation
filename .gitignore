@@ -11,3 +11,4 @@ stats/wiki_corpus/counts_1grams.json
 stats/wiki_corpus/counts_2grams.json
 stats/wiki_corpus/counts_3grams.json
 demo.ipynb
+src/__pycache__/inference.cpython-39.pyc
