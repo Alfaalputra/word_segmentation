@@ -2,8 +2,11 @@ import re, sys, os
 from functools import lru_cache
 from math import log10
 
-from src.exmanager import ExManager
-from src.helpers import Helpers
+path_this = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(path_this)
+
+from exmanager import ExManager
+from helpers import Helpers
 
 """
 The Segmenter Class implements the Viterbi algorithm for word segmentation.
