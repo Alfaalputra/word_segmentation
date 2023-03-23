@@ -1,7 +1,7 @@
 import re
 
-from src.correction import Correction
-from src.segmentation import Segmentation
+from correction import Correction
+from segmentation import Segmentation
 
 seg = Segmentation(corpus="wiki_corpus")
 cor = Correction(corpus="wiki_corpus")
