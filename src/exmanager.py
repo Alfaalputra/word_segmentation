@@ -5,7 +5,7 @@ import re
 
 class ExManager:
     ext_path = os.path.join(os.path.dirname(__file__),
-                            '../regexes/expressions.txt')
+                            'expressions.txt')
 
     with open(ext_path) as fh:
         expressions = json.load(fh)
