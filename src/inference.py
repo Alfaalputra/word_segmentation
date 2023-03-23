@@ -51,4 +51,4 @@ class Inference:
         txt = re.sub(r"^\'\s", r"'", txt)
         txt = re.sub(r"\.\s(\")\s([a-zA-Z\d])", r"\. \1\2", txt)
 
-        return cor.correct(text)
+        return txt
