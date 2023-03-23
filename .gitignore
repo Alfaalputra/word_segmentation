@@ -4,3 +4,10 @@ data/wiki_corpus.txt
 stats/wiki_corpus/counts_1grams.txt
 stats/wiki_corpus/counts_2grams.txt
 stats/wiki_corpus/counts_3grams.txt
+src/__pycache__/correction.cpython-39.pyc
+src/__pycache__/exmanager.cpython-39.pyc
+src/__pycache__/helpers.cpython-39.pyc
+src/__pycache__/segmentation.cpython-39.pyc
+stats/wiki_corpus/counts_1grams.json
+stats/wiki_corpus/counts_2grams.json
+stats/wiki_corpus/counts_3grams.json
