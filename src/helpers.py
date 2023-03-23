@@ -2,24 +2,23 @@ from functools import reduce
 import operator
 import os
 from os import path
-from os.path import expanduser
 import sys
+import inspect
 import ujson as json
 from urllib.request import urlretrieve
 import zipfile
 
-
+path_this = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(path_this, '..'))
+sys.path.append(root_dir)
 class Helpers:
 
     def get_stats_dir(self):
-        home = expanduser("~")
+        
+        if not os.path.exists(root_dir):
+            os.makedirs(root_dir)
 
-        ekphrasis_dir = path.join(home, '.ekphrasis')
-
-        if not os.path.exists(ekphrasis_dir):
-            os.makedirs(ekphrasis_dir)
-
-        stats_dir = path.join(ekphrasis_dir, 'stats')
+        stats_dir = path.join(root_dir, 'stats')
 
         if not os.path.exists(stats_dir):
             os.makedirs(stats_dir)
