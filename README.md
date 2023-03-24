@@ -50,7 +50,7 @@ kenapa
 ```
 
 # Word Segmentation API
-Word Segmentation API ini menggunakan FastAPI dan juga menggunakan docker untuk menjalankannya. Untuk menjalankan API ini, jalankan perintah berikut:
+Word Segmentation API ini menggunakan FastAPI. Untuk menjalankan API ini, jalankan perintah berikut:
 ```
 python api.py --port 6969
 ```
@@ -58,3 +58,5 @@ Untuk mengakses API ini, buka browser dan ketikkan url berikut:
 ```
 http://localhost:6969/docs
 ```
+
+File Docker juga tersedia jika ingin menjalankan menggunakan docker.
