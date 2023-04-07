@@ -11,7 +11,7 @@ sys.path.append(src_path)
 from inference import Inference
 
 
-st.header("Word Segmenttation")
+st.header("Bahasa Indonesia Word Segmentation")
 inf = Inference()
 text = st.text_area('Input here')
 
