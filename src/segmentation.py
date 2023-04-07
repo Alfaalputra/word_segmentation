@@ -66,7 +66,7 @@ class Segmentation:
 
         self.Pw = Pdist(self.unigrams, self.N, self.unk_probability)
         self.P2w = Pdist(self.bigrams, self.N)
-        self.P3w = Pdist(self.trigrams, self.N)
+        # self.P3w = Pdist(self.trigrams, self.N)
 
         self.case_split = ExManager().get_compiled()["camel_split"]
 
